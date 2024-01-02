@@ -35,7 +35,7 @@ const Dashboard = () => {
         gap="20px"
       >
 
-                {/* ROW 2 */}
+        {/* ROW 1- main transition box */}
                 <Box
           gridColumn={isNonMobile ? "span 8" : "span 12"}
           gridRow="span 2"
@@ -192,13 +192,13 @@ const Dashboard = () => {
 
         {/* ROW 3 */}
         <Box
-          gridColumn={isNonMobile ? "span 4" : "span 12"}
+          gridColumn={isNonMobile ? "span 8" : "span 12"}
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
           p="30px"
         >
           <Typography variant="h5" fontWeight="600">
-            Campaign
+            Work Status
           </Typography>
           <Box
             display="flex"
@@ -212,13 +212,13 @@ const Dashboard = () => {
               color={colors.greenAccent[500]}
               sx={{ mt: "15px" }}
             >
-              $93,323 Revenue Generated
+              Current working status shows result will be on time
             </Typography>
             <Typography>Includes extra misc expenditures and costs</Typography>
           </Box>
         </Box>
 
-        {/*  */}
+{/*         
         <Box
           gridColumn={isNonMobile ? "span 4" : "span 12"}
           gridRow="span 2"
@@ -234,7 +234,7 @@ const Dashboard = () => {
           <Box height="250px" mt="-20px">
             <BarChart isDashboard={true} />
           </Box>
-        </Box>
+        </Box> */}
 
         {/*  */}
         <Box
@@ -243,11 +243,18 @@ const Dashboard = () => {
           backgroundColor={colors.primary[400]}
           p="30px"
         >
-          <Typography variant="h5" fontWeight="600" sx={{ mb: "15px" }}>
-            Geography Based Traffic
+          <Typography variant="h5" fontWeight="600">
+            View certificate
           </Typography>
-          <Box height="200px">
-            <GeographyChart isDashboard={true} />
+          <Box
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
+            mt="35px"
+          >
+            <ProgressCircle size="125" />
+
+            
           </Box>
         </Box>
 
