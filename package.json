@@ -1,0 +1,35 @@
+{
+  "name": "react-admin",
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.6",
+    "@fullcalendar/daygrid": "^6.1.6",
+    "@fullcalendar/interaction": "^6.1.6",
+    "@fullcalendar/list": "^6.1.6",
+    "@fullcalendar/react": "^6.1.6",
+    "@fullcalendar/timegrid": "^6.1.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.2",
+    "@mui/x-data-grid": "^6.2.1",
+    "@nivo/bar": "^0.81.0",
+    "@nivo/core": "^0.81.0",
+    "@nivo/geo": "^0.81.0",
+    "@nivo/line": "^0.81.0",
+    "@nivo/pie": "^0.81.0",
+    "formik": "^2.2.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-pro-sidebar": "^0.7.1",
+    "react-router-dom": "^6.10.0",
+    "yup": "^1.1.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.3"
+  }
+}

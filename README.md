@@ -1,11 +1,3 @@
-# [React Admin Dashboard](https://jake-dashboard.netlify.app/)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f342756f-e134-4be6-85a0-fb6967436242/deploy-status)](https://app.netlify.com/sites/jake-dashboard/deploys)
-
-Hi Finn,
-
-In case you forgot what you've achieved in the future, here is something to look at. You did comment in the files to explain why and how to do it. And also look up package.json to find out what package to install.  
-Mainly you use:
 
 ---
 
@@ -43,16 +35,13 @@ Mainly you use:
   - [Toogle Pastiside] to look up css grid layout on specific page
       
 
-- ### Migrate to Vite from Create React App (CRA)
 
-  - reduce project physical size
-  - [step refer to](https://www.robinwieruch.de/vite-create-react-app/)
 
   ***
 
 Best regards
 
-Finn from the past
+
 
 
 # react-admin-pannel-with-vite
