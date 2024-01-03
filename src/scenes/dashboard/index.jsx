@@ -12,6 +12,8 @@ import BarChart from "../../components/BarChart";
 import GeographyChart from "../../components/GeographyChart";
 import StatBox from "../../components/StatBox";
 import ProgressCircle from "../../components/ProgressCircle";
+import RotateLeftIcon from '@mui/icons-material/RotateLeft';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
 
 const Dashboard = () => {
   const theme = useTheme();
@@ -132,7 +134,7 @@ const Dashboard = () => {
         >
           <StatBox
             title="12,361"
-            subtitle="Email Sent"
+            subtitle="Requested Site"
             progress="0.75"
             increase="+14%"
             icon={
@@ -154,11 +156,11 @@ const Dashboard = () => {
         >
           <StatBox
             title="431,225"
-            subtitle="Sales Obtained"
+            subtitle="Status of the current request"
             progress="0.5"
             increase="+21%"
             icon={
-              <PointOfSaleIcon
+              <RotateLeftIcon
                 sx={{
                   color: colors.greenAccent[600],
                   fontSize: "26px",
@@ -176,11 +178,11 @@ const Dashboard = () => {
         >
           <StatBox
             title="32,441"
-            subtitle="New Clients"
+            subtitle="Estimated time to Complete"
             progress="0.30 "
             increase="+5%"
             icon={
-              <PersonAddIcon
+              <AccessTimeIcon
                 sx={{
                   color: colors.greenAccent[600],
                   fontSize: "26px",

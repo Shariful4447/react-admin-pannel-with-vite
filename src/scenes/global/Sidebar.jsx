@@ -145,9 +145,16 @@ const Sidebar = () => {
             >
               Data
             </Typography>
+            <Item
+              title="Submit request"
+              to="/contacts"
+              icon={<ArrowUpwardIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
 
             <Item
-              title="Orders"
+              title="Total Request"
               to="/invoices"
               icon={<DvrIcon />}
               selected={selected}
@@ -160,13 +167,7 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
-            <Item
-              title="Submit request"
-              to="/contacts"
-              icon={<ArrowUpwardIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
+
             <Item
               title="Settings"
               to="/invoices"
