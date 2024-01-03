@@ -16,6 +16,10 @@ import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import DvrIcon from '@mui/icons-material/Dvr';
+import SettingsIcon from '@mui/icons-material/Settings';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -145,7 +149,7 @@ const Sidebar = () => {
             <Item
               title="Orders"
               to="/invoices"
-              icon={<ReceiptOutlinedIcon />}
+              icon={<DvrIcon />}
               selected={selected}
               setSelected={setSelected}
             />
@@ -159,14 +163,14 @@ const Sidebar = () => {
             <Item
               title="Submit request"
               to="/contacts"
-              icon={<ContactsOutlinedIcon />}
+              icon={<ArrowUpwardIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Settings"
               to="/invoices"
-              icon={<ReceiptOutlinedIcon />}
+              icon={<SettingsIcon />}
               selected={selected}
               setSelected={setSelected}
             />
@@ -202,7 +206,7 @@ const Sidebar = () => {
             <Item
               title="Chat With Us"
               to="/faq"
-              icon={<HelpOutlinedIcon />}
+              icon={<WhatsAppIcon />}
               selected={selected}
               setSelected={setSelected}
             />
