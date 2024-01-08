@@ -184,7 +184,7 @@ const Sidebar = () => {
               Support
             </Typography>
             <Item
-              title="Profile Form"
+              title="FeedBack Form"
               to="/form"
               icon={<PersonOutlinedIcon />}
               selected={selected}
