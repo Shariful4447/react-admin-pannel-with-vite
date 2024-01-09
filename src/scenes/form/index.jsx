@@ -6,29 +6,18 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Header from '../../components/Header';
 
 const initialValues = {
-  firstName: '',
-  lastName: '',
+  companyName: '',
   email: '',
-  contact: '',
-  address1: '',
-  address2: '',
+  feedBack: '',
 };
 
-const phoneRegExp =
-  /^((\+[1-9]{1,4}[ -]?)|(\([0-9]{2,3}\)[ -]?)|([0-9]{2,4})[ -]?)*?[0-9]{3,4}[ -]?[0-9]{3,4}$/;
 
 //define validation logic for each field
 const userSchema = yup.object().shape({
   //'required' going to pop up if validatetion fail
-  firstName: yup.string().required('required'),
-  lastName: yup.string().required('required'),
+  companyName: yup.string().required('required'),
   email: yup.string().email('invalid email').required('required'),
-  contact: yup
-    .string()
-    .matches(phoneRegExp, 'Phone number is not valid')
-    .required('required'),
-  address1: yup.string().required('required'),
-  address2: yup.string().required('required'),
+  feedBack: yup.string().required('required'),
 });
 
 const Form = () => {
@@ -40,7 +29,7 @@ const Form = () => {
   };
   return (
     <Box m="20px">
-      <Header title="FORM" subtitle="Create a New User Profile" />
+      <Header title="FORM" subtitle="Send Your feedback to us" />
       <Formik
         onSubmit={handleFormSubmit}
         //initialValues is a obj offer values, consist with empty string
@@ -69,16 +58,15 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Company Name"
+                label="Company name"
                 onBlur={handleBlur}
                 onChange={handleChange}
-                value={values.firstName}
+                value={values.companyName}
                 name="firstName"
-                error={!!touched.firstName && !!errors.firstName}
-                helperText={touched.firstName && errors.firstName}
+                error={!!touched.companyName && !!errors.companyName}
+                helperText={touched.companyName && errors.companyName}
                 sx={{ gridColumn: 'span 2' }}
               />
-
               <TextField
                 fullWidth
                 variant="filled"
@@ -90,26 +78,25 @@ const Form = () => {
                 name="email"
                 error={!!touched.email && !!errors.email}
                 helperText={touched.email && errors.email}
-                sx={{ gridColumn: 'span 2'}}
+                sx={{ gridColumn: 'span 2' }}
               />
               <TextField
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Review"
+                label="Your FeedBack"
                 onBlur={handleBlur}
                 onChange={handleChange}
-                value={values.address1}
-                name="address1"
-                error={!!touched.address1 && !!errors.address1}
-                helperText={touched.address1 && errors.address1}
+                value={values.feedBack}
+                name="address2"
+                error={!!touched.feedBack && !!errors.feedBack}
+                helperText={touched.feedBack && errors.feedBack}
                 sx={{ gridColumn: 'span 4' }}
               />
-              
             </Box>
             <Box display="flex" justifyContent="end" mt="20px">
               <Button type="submit" color="secondary" variant="contained">
-                Send Feedback
+                Submit Your Feedback
               </Button>
             </Box>
           </form>
