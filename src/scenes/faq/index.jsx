@@ -14,7 +14,7 @@ const FAQ = () => {
     <Box m="20px">
       <Header title="FAQ" subtitle="Frequently Asked Questions Page" />
 
-      <Accordion defaultExpanded>
+      <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
             What is Lorem Ipsum?
@@ -35,7 +35,7 @@ const FAQ = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion defaultExpanded>
+      <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
             What is RESTful API?
@@ -52,7 +52,7 @@ const FAQ = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion defaultExpanded>
+      <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
             What is OpenGL used for?
@@ -69,7 +69,7 @@ const FAQ = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion defaultExpanded>
+      <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
             What is a Raspberry Pi?
