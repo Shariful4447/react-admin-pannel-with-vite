@@ -15,6 +15,7 @@ import Request from './scenes/submitRequest';
 
 import Pie from './scenes/pie';
 import Line from './scenes/line';
+import Chat from './scenes/chat';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/request" element={<Request/>} />
+              <Route path="/chat" element={<Chat/>} />
               
               <Route path="/pie" element={<Pie />} />
               <Route path="/line" element={<Line />} />

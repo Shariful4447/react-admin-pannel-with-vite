@@ -207,7 +207,7 @@ const Sidebar = () => {
             />
             <Item
               title="Chat With Us"
-              to="/faq"
+              to="/chat"
               icon={<WhatsAppIcon />}
               selected={selected}
               setSelected={setSelected}

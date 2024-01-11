@@ -31,7 +31,7 @@ const Request = () => {
 
   return (
     <Box m="20px">
-    <Header title="Request" subtitle="Submit Your Request" />
+    <Header title="Submit Your Request"/>
       
       <Formik
         onSubmit={handleFormSubmit}
