@@ -17,20 +17,15 @@ const FAQ = () => {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
-            What is Lorem Ipsum?
+            What are Dark Patterns?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum
+          Dark patterns refer to user interface design practices that intentionally
+          manipulate or deceive users into taking actions that they might not otherwise
+          choose to take. These patterns are often designed to benefit the business or
+          website at the expense of the user's understanding, autonomy, or well-being.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -38,16 +33,17 @@ const FAQ = () => {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
-            What is RESTful API?
+           What is the impact of Dark Patterns in a website?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            A RESTful API is an architectural style for an application program
-            interface (API) that uses HTTP requests to access and use data. That
-            data can be used to GET, PUT, POST and DELETE data types, which
-            refers to the reading, updating, creating and deleting of operations
-            concerning resources.
+          Dark patterns on a website lead to a negative user experience,
+          eroding trust and causing frustration. Users may perceive the
+          website as deceptive, damaging the brand's reputation and resulting 
+          in diminished customer loyalty. In addition, the use of dark patterns 
+          can lead to legal consequences and increased support requests, impacting
+          the website's overall success and sustainability.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -55,16 +51,39 @@ const FAQ = () => {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
-            What is OpenGL used for?
+          How does dark patterns in a website ruin the brand image?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            It is commonly used to make UI animations more responsive or to
-            handle embedded video or to draw vector graphics – really any visual
-            element you put on the screen is fair game for OpenGL. OpenGL is
-            becoming increasingly ubiquitous and understanding how to leverage
-            its incredible power is a must for developers.
+          Dark patterns in a website can ruin a brand image by creating a perception of
+          deceit and manipulation among users. When visitors feel deceived or tricked
+          into making decisions that are not in their best interest, it erodes trust
+          in the brand. This negative experience can lead to social media backlash,
+          word-of-mouth negative reviews, and a tarnished reputation, ultimately 
+          harming the brand's image and credibility. Users are likely to associate
+          the brand with dishonest practices, making it difficult for the company 
+          to build and maintain a positive brand image in the long term.
+        </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography variant="h5" color={colors.greenAccent[500]}>
+          Why should my website be free of dark patterns?
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          A website free of dark patterns is crucial for establishing trust with users,
+          fostering positive user experiences, and maintaining a reputable brand image.
+          Ethical design practices contribute to long-term customer loyalty, positive 
+          reviews, and compliance with legal regulations, ensuring sustainable growth 
+          and avoiding the negative consequences associated with deceptive tactics. 
+          By prioritizing transparency and user satisfaction, your website promotes 
+          a positive online environment, encouraging user engagement and building a 
+          trustworthy relationship with your audience.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -72,14 +91,18 @@ const FAQ = () => {
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
-            What is a Raspberry Pi?
+          How will your dark pattern free certificate help my business?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            The Raspberry Pi is a low cost, credit-card sized computer that
-            plugs into a computer monitor or TV, and uses a standard keyboard
-            and mouse.
+          A dark pattern-free certificate can significantly benefit a business by
+          building trust with users, enhancing its reputation for ethical practices,
+          and providing a competitive edge in the market. Displaying such a certificate
+          signals a commitment to transparent and user-friendly experiences, attracting
+          conscientious consumers and potentially improving customer loyalty. The certificate
+          can serve as a powerful marketing tool, assuring users of the business's dedication
+          to fair practices and fostering positive brand perception.
           </Typography>
         </AccordionDetails>
       </Accordion>
