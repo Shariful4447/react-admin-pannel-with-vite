@@ -45,4 +45,4 @@ Best regards
 
 
 # react-admin-pannel-with-vite
-# react-admin-pannel-for-admins-with-vite
+
