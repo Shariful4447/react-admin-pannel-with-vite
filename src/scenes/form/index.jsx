@@ -62,7 +62,7 @@ const Form = () => {
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.companyName}
-                name="firstName"
+                name="companyName"
                 error={!!touched.companyName && !!errors.companyName}
                 helperText={touched.companyName && errors.companyName}
                 sx={{ gridColumn: 'span 2' }}
@@ -88,10 +88,11 @@ const Form = () => {
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.feedBack}
-                name="address2"
+                name="feedBack"
                 error={!!touched.feedBack && !!errors.feedBack}
                 helperText={touched.feedBack && errors.feedBack}
                 sx={{ gridColumn: 'span 4' }}
+                
               />
             </Box>
             <Box display="flex" justifyContent="end" mt="20px">
