@@ -28,7 +28,7 @@
 
 - VScode extension
 
-  - [Tailwind Shade] to convert hex code to more shade (cmd+k cmd+g)
+  - [Tailwind Shade] to convert hex code to more shade.
 
 - Chrome extension
 
