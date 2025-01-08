@@ -39,7 +39,7 @@
 
   ***
 
-Best regards
+
 
 
 
