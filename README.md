@@ -34,9 +34,6 @@
 
   - [Toogle Pastiside] to look up css grid layout on specific page
       
-
-
-
   ***
 
 
