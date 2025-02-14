@@ -24,7 +24,7 @@
   - stylish sidebar for React.
 - [react-router](https://reactrouter.com/en/main)
 
-  - HashRouter for route
+  - HashRouter for route controling.
 
 - VScode extension
 
