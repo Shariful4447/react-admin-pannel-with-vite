@@ -29,10 +29,6 @@
 - VScode extension
 
   - [Tailwind Shade] to convert hex code to more shade.
-
-- Chrome extension
-
-  - [Toogle Pastiside] to look up css grid layout on specific page
       
   ***
 
